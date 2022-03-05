@@ -61,7 +61,7 @@ Requirements:
       mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/suites/WebGroup.xml
       mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/suites/MobileGroup.xml
   
-  5. Manually trigger your Jenkins Pipeline script to check the whole process automation.
+  5. Manually trigger your Jenkins Pipeline Job to check the whole process automation. Sample Groovy script is the "jenkins-pipeline-script.groovy" file. https://github.com/software-testing-bootcamp/S2E3-process-automation-RPA-with-jenkins-and-test-automation-tools/blob/main/Jenkins-pipeline-script-groovy/jenkins-pipeline-script.groovy
 
 ![image](https://user-images.githubusercontent.com/89974862/156876045-58e33fd4-0963-4f74-9a74-4ea861abc58e.png)
 
