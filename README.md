@@ -42,16 +42,16 @@ Before starting the project let's create a MySQL DB scheme with the needed initi
 
 ***
 
-**1. High-Code Process Automation with Java**
+## 1. High-Code Process Automation with Java ##
 
 Requirements:
-  - IntelliJ IDEA CE Installation
-  - Java JDK 11
-  - Appium Server v2.0.0-beta.25 or later installation
-  - Appium Inspector v2022.1.2 or later installation
-  - Android Emulator (via Android Studio)
-  - MySQL Database with an admin user.
-  - Jenkins 2.0+ Installation (Plugins: BlueOcean, Discord, Extended Email)
+  - IntelliJ IDEA CE Installation -> https://www.jetbrains.com/idea/download
+  - Java JDK 11 -> https://www.oracle.com/tr/java/technologies/javase/jdk11-archive-downloads.html
+  - Appium Server v2.0.0-beta.25 or later installation -> https://appium.io/
+  - Appium Inspector v2022.1.2 or later installation -> https://github.com/appium/appium-inspector
+  - Android Emulator (via Android Studio) -> https://developer.android.com/studio
+  - MySQL Database with an admin user. ->  https://dev.mysql.com/downloads/mysql/
+  - Jenkins 2.0+ Installation (Plugins: BlueOcean, Discord, Extended Email) -> https://www.jenkins.io/
 
 **Getting Started with JAVA Project**
   1. Open Java Maven project with IntelliJ IDEA
@@ -76,16 +76,16 @@ Requirements:
 
 ***
 
-**2. Low-Code Process Automation with Jmeter**
+## 2. Low-Code Process Automation with Jmeter ##
 
 Requirements:
-  - Java JRE or JDK installation
-  - Apache Jmeter
-  - Jmeter Plugins Manager (JAR file)
-  - MySQL Java Connector (JAR file)
-  - ChromeDriver file
-  - MySQL DB Server
-  - MySQL Workbench installation
+  - Java JRE or JDK installation -> https://www.oracle.com/tr/java/technologies/javase/jdk11-archive-downloads.html
+  - Apache Jmeter Binary -> https://jmeter.apache.org/download_jmeter.cgi
+  - Jmeter Plugins Manager (JAR file) -> https://jmeter-plugins.org/wiki/PluginsManager/
+  - MySQL Java Connector (JAR file) -> https://dev.mysql.com/downloads/connector/j/
+  - ChromeDriver file -> https://chromedriver.chromium.org/
+  - MySQL Community Server -> https://dev.mysql.com/downloads/mysql/
+  - MySQL Workbench installation -> https://dev.mysql.com/downloads/workbench/
 
 **Getting Started with JMETER Project**
   1. Download Jmeter Plugins Manager and MySQL Connector JAR files and then copy to the following locations.
@@ -99,7 +99,7 @@ Requirements:
 
   4. SET your MySQL Server Connection Information on "JDBC.MySQL" section.
   
-  5. SET your chromeDriver file location on "Chrome Driver Config" section. To download the compatible driver with your Chrome browser, please use this URL https://chromedriver.chromium.org/
+  5. SET your chromeDriver file location on "Chrome Driver Config" section.
 
 ![image](https://user-images.githubusercontent.com/89974862/156876224-a7cfaf99-b531-4ad9-93c4-649103d9d52e.png)
 
