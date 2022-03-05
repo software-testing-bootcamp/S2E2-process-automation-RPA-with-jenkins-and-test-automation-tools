@@ -103,6 +103,8 @@ Requirements:
 
 ![image](https://user-images.githubusercontent.com/89974862/156876224-a7cfaf99-b531-4ad9-93c4-649103d9d52e.png)
 
+***
+
 ## 3. What is next? ##
 
 Once you have collected enough data, you can start analyzing it and even create your own application. To be sure if you need AI support, you must first determine what you expect from AI and make sure it needs to be analyzed in a humanlike way.
