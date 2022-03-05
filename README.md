@@ -15,7 +15,7 @@ In this video, we will do 2 process automation examples with Open Source technol
 
 ![image](https://user-images.githubusercontent.com/89974862/156874888-abafd451-e26f-4543-bc7e-28c77f4ce507.png)
 
-We will get the cryptocurrency prices from makets and will write tema until the whole operation has been failed. If the operation has been failed Java code or Jmeter will send Email and Discord notifications, after that process will be stopped until we check it manually to be sure that's working again. The following picture describes the whole process automation
+We will get the cryptocurrency prices from markets and will write to MySQL DB until the whole operation has been failed. If the operation has been failed Java code or Jmeter will send Email and Discord notifications after that process will be stopped until we check it manually to be sure that's working again. The following picture describes the whole process automation
 
 ![image](https://user-images.githubusercontent.com/89974862/156874676-193ab354-22b3-42ea-a5da-8a4e9786fbb6.png)
 
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=qfHaSGDO_ig
 
 **MySQL Database Creation**
 
-Before starting the project let's create MySQL DB scheme with needed initial Data with this file "coin_test_DB_Creation_Scripts.sql" on this repository.
+Before starting the project let's create a MySQL DB scheme with the needed initial Data with this file "coin_test_DB_Creation_Scripts.sql" on this repository.
 
 ![image](https://user-images.githubusercontent.com/89974862/156876279-ef5058f5-df24-4d4a-9c04-133b82a90cd8.png)
 
@@ -58,11 +58,11 @@ Requirements:
 
   2. Set your DatabaseManager.java file with your MySQL Database connection credentials
   
-  3. Download latest CoinMarketCap APK from it's website and set "appium:app" capability's value on "PlatformManager.java"  file
+  3. Download latest CoinMarketCap APK from its website and set "appium:app" capability's value on "PlatformManager.java"  file
 
   4. Start Appium server from your Terminal or Command Prompt "Appium &"
 
-  5. To check the Automation on your computer, right lick on the TestNG suite XML files and run or execute the following commands.
+  5. To check the Automation on your computer, right click on the TestNG suite XML files and run or execute the following commands.
 
       cd ${JAVA_PROJECT_DIRECTORY}
       mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/suites/APIGroup.xml
@@ -95,7 +95,7 @@ Requirements:
   2. Start Jmeter and Click File->Open than select "jmeter_test-crypto.jmx" file 
      ${JMETER_INSTALLATION_PATH}/bin/Jmeter or Jmeter.bat(for Windows)
      
-  3. SET your SMTP Server Settings or Discord API Hook URL. For Gmail SMTP Server usage, please allow less secure apps to use your Gamil address on this link https://myaccount.google.com/lesssecureapps
+  3. SET your SMTP Server Settings or Discord API Hook URL. For Gmail SMTP Server usage, please allow less secure apps to use your Gmail address on this link https://myaccount.google.com/lesssecureapps
 
   4. SET your MySQL Server Connection Information on "JDBC.MySQL" section.
   
