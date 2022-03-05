@@ -28,6 +28,14 @@ https://www.youtube.com/watch?v=qfHaSGDO_ig
 
 ***
 
+**MySQL Database Creation**
+
+Before starting the project let's create MySQL DB scheme with needed initial Data with this file "coin_test_DB_Creation_Scripts.sql" on this repository.
+
+![image](https://user-images.githubusercontent.com/89974862/156876279-ef5058f5-df24-4d4a-9c04-133b82a90cd8.png)
+
+***
+
 **1. High-Code Process Automation with Java**
 
 Requirements:
@@ -85,5 +93,6 @@ Requirements:
   
   5. SET your chromeDriver file location on "Chrome Driver Config" section. To download the compatible driver with your Chrome browser, please use this URL https://chromedriver.chromium.org/
 
-![image](https://user-images.githubusercontent.com/89974862/156876099-97adee2a-507b-4399-84a5-3c2733ea4d09.png)
+![image](https://user-images.githubusercontent.com/89974862/156876224-a7cfaf99-b531-4ad9-93c4-649103d9d52e.png)
+
 
