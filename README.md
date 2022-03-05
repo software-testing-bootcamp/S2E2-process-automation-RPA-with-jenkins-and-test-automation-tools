@@ -51,17 +51,19 @@ Requirements:
   1. Open Java Maven project with IntelliJ IDEA
 
   2. Set your DatabaseManager.java file with your MySQL Database connection credentials
+  
+  3. Download latest CoinMarketCap APK from it's website and set "appium:app" capability's value on "PlatformManager.java"  file
 
-  3. Start Appium server from your Terminal or Command Prompt "Appium &"
+  4. Start Appium server from your Terminal or Command Prompt "Appium &"
 
-  4. To check the Automation on your computer, right lick on the TestNG suite XML files and run or execute the following commands.
+  5. To check the Automation on your computer, right lick on the TestNG suite XML files and run or execute the following commands.
 
       cd ${JAVA_PROJECT_DIRECTORY}
       mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/suites/APIGroup.xml
       mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/suites/WebGroup.xml
       mvn clean test -Dsurefire.suiteXmlFiles=src/test/java/suites/MobileGroup.xml
   
-  5. Manually trigger your Jenkins Pipeline Job to check the whole process automation. Sample Groovy script is the "jenkins-pipeline-script.groovy" file.
+  6. Manually trigger your Jenkins Pipeline Job to check the whole process automation. Sample Groovy script is the "jenkins-pipeline-script.groovy" file.
 
 ![image](https://user-images.githubusercontent.com/89974862/156876045-58e33fd4-0963-4f74-9a74-4ea861abc58e.png)
 
