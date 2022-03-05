@@ -7,6 +7,12 @@ In this video, we will do 2 process automation examples with Open Source technol
   - High-Code Process Automation with Java
   - Low-Code Process Automation with Jmeter (WDS)
 
+ Before starting, You can check these 4 webinar docs on https://testingbootcamp.com
+  - DevOps and Test Automation with Jenkins
+  - Performance Testing with Jmeter
+  - S2E1 — Selenium 4.0 with Java step by step
+  - S2E2 — Mobile Test Automation with Appium 2.0 and Java
+
 ![image](https://user-images.githubusercontent.com/89974862/156874888-abafd451-e26f-4543-bc7e-28c77f4ce507.png)
 
 We will get the cryptocurrency prices from makets and will write tema until the whole operation has been failed. If the operation has been failed Java code or Jmeter will send Email and Discord notifications, after that process will be stopped until we check it manually to be sure that's working again. The following picture describes the whole process automation
